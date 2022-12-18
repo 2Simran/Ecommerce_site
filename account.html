@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Account Section </title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?
+        family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css"> -->
+        <script src="https://kit.fontawesome.com/432dfdc580.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- <div class="header"> -->
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <img src="images/lily.jpg" width="80px">
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="">Home</a></li>
+                            <li><a href="product details.html">Products</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <img src="images/search.png" width="30px" height="30px">    
+                    <img src="images/cart.png" width="30px" height="30px">
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+    
+                </div>
+            </div>
+        </div>
+<!----------------- Login Section --------------------------->
+<div class="account-page">
+    <div class="container">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/cover8.jpeg" width="100%">
+            </div>
+        </div>
+    </div>
+</div>
+
+    <!------------------------------------ Footer Section ------------------------------------>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone</p>
+                    <div class="app-logo"> 
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png">
+                    <p>Lorem ipsons ectetur adipisicing elit. Aliquid dolorum dele</p> 
+                </div>
+            
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Join Affiliate</li>
+                        <li>Return Policy</li>                    
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>YouTube</li>
+                        <li>Twitter</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+                <p class="copyright">Copyright - Simran Rai &copy;</p><!---  &copy; , &#169; is copyright symbol-->
+            
+        </div>
+    <!-------------- JS for Toggle Menu  For Navigation Bar-------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px")
+            {
+                MenuItems.style.maxHeight = "200px";
+            }
+            else
+            {
+                MenuItems.style.maxHeight = "0px";
+            }
+        }
+    </script>
+       
+</body>
+</html>
